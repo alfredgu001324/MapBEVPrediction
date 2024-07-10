@@ -1,5 +1,5 @@
 # MapBEVPrediction
-This repository contains the official implementation of "Accelerating Online Mapping and Behavior Prediction via Direct BEV Feature Attention" published in ECCV 2024. 
+This repository contains the official implementation of [Accelerating Online Mapping and Behavior Prediction via Direct BEV Feature Attention](https://arxiv.org/abs/2407.06683) published in ECCV 2024. 
 
 ![](assets/flowchart.png)
 
