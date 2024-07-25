@@ -1,7 +1,33 @@
 # MapBEVPrediction
 This repository contains the official implementation of [Accelerating Online Mapping and Behavior Prediction via Direct BEV Feature Attention](https://arxiv.org/abs/2407.06683) published in ECCV 2024. 
 
+**Note:** This is an untested version. Most of the code are adopted from my previous work. Let me know if any (very likely) bugs appear and I will fix it ASAP. Will try to run this from scratch hopefully soon (still at internship so time is not guaranteed :( ). Thank you so much for your interest and support!!
+
 ![](assets/flowchart.png)
+
+## Getting Started
+- [Environment Setup](docs/env.md)
+- [Prepare Dataset](docs/prepare_dataset.md)
+- [Mapping Train and Eval](docs/map.md)
+- [Merge Map and Trajectory Dataset](docs/adaptor.md)
+- [Trajectory Train and Eval](docs/trj.md)
+- [Visualization](docs/visualization.md)
+
+## Results
+
+Mapping checkpoints are [here](https://drive.google.com/drive/folders/1ZhCv4Z_yI7PLirHLS64luE1fV2EPG0sB?usp=sharing). Trajectory prediction checkpoints are [here](https://drive.google.com/drive/folders/1e0xRQqlIhYaAz3ErfNhZ57FCGN97vyzt?usp=sharing). 
+
+## Catalog
+
+- [ ] Visualization Code
+- [ ] Code release
+  - [ ] MapTR
+  - [ ] MapTRv2
+  - [ ] StreamMapNet
+  - [ ] HiVT
+  - [ ] DenseTNT
+- [x] Untested version released + Instructions
+- [x] Initialization
 
 ## Citation
 
@@ -12,6 +38,17 @@ If you found this repository useful, please consider citing our work:
   author    = {Gu, Xunjiang and Song, Guanyu and Gilitschenski, Igor and Pavone, Marco and Ivanovic, Boris},
   title     = {Accelerating Online Mapping and Behavior Prediction via Direct BEV Feature Attention},
   booktitle = {European Conference on Computer Vision (ECCV)},
+  year      = {2024}
+}
+```
+
+This codebase is built using our [prior work](https://github.com/alfredgu001324/MapUncertaintyPrediction), if your found this helpful, please also consider citing:
+
+```
+@Inproceedings{GuSongEtAl2024,
+  author    = {Gu, Xunjiang and Song, Guanyu and Gilitschenski, Igor and Pavone, Marco and Ivanovic, Boris},
+  title     = {Producing and Leveraging Online Map Uncertainty in Trajectory Prediction},
+  booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
   year      = {2024}
 }
 ```
