@@ -20,12 +20,12 @@ Mapping checkpoints are [here](https://drive.google.com/drive/folders/1ZhCv4Z_yI
 ## Catalog
 
 - [ ] Visualization Code
-- [ ] Code release
-  - [ ] MapTR
-  - [ ] MapTRv2
-  - [ ] StreamMapNet
-  - [ ] HiVT
-  - [ ] DenseTNT
+- [x] Code release
+  - [x] MapTR
+  - [x] MapTRv2
+  - [x] StreamMapNet
+  - [x] HiVT
+  - [x] DenseTNT
 - [x] Untested version released + Instructions
 - [x] Initialization
 
