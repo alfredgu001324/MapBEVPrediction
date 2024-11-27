@@ -17,6 +17,24 @@ This repository contains the official implementation of [Accelerating Online Map
 
 Mapping checkpoints are [here](https://drive.google.com/drive/folders/1ZhCv4Z_yI7PLirHLS64luE1fV2EPG0sB?usp=sharing). Trajectory prediction checkpoints are [here](https://drive.google.com/drive/folders/1e0xRQqlIhYaAz3ErfNhZ57FCGN97vyzt?usp=sharing). 
 
+## Dataset
+
+I have uploaded two sample datasets (complete) for `MapTRv2` and `MapTRv2 CL`. They are around 500GB each. You can download them through AWS S3. They are located at 
+- AWS Bucket Name: **s3://mapbevprediction**
+- Region: us-east-2
+
+Dataset Structure is as follows:
+```
+mapbevprediction
+├── maptrv2_bev/
+│   ├── mini_val/
+│   |   ├── data/
+│   |   |   ├── scene-{scene_id}.pkl
+│   ├── train/
+│   ├── val/
+├── maptrv2_cent_bev/
+```
+
 ## Catalog
 
 - [ ] Visualization Code
