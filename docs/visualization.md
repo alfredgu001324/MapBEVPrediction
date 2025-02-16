@@ -7,15 +7,16 @@ Please run
 ```
 cd MapTRv2_modified
 
-python vis_std.py \
+python vis_bev.py \
   --version mini \                                   [mini, trainval]
   --dataroot ../nuscenes \
   --split mini_val \                                 [mini_val, val]
   --trj_pred HiVT \                                  [HiVT, DenseTNT]
   --map MapTR \                                      [MapTR, StreamMapNet]
-  --trj_data ../trj_data/maptr/mini_val/data \                   
+  --trj_data ../trj_data/maptr/mini_val/data \
   --base_results ../PATH_to_baseline_prediction_results \
   --unc_results ../PATH_to_unc_prediction_results \
+  --bev_results ../PATH_to_bev_prediction_results \
   --boxes bbox.pkl \
   --save_path $SAVE_PATH
 ```

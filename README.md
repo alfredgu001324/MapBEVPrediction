@@ -1,8 +1,6 @@
 # MapBEVPrediction
 This repository contains the official implementation of [Accelerating Online Mapping and Behavior Prediction via Direct BEV Feature Attention](https://arxiv.org/abs/2407.06683) published in ECCV 2024. 
 
-**Note:** This is an untested version. Most of the code are adopted from my previous work. Let me know if any (very likely) bugs appear and I will fix it ASAP. Will try to run this from scratch hopefully soon (still at internship so time is not guaranteed :( ). Thank you so much for your interest and support!!
-
 ![](assets/flowchart.png)
 
 ## Getting Started
@@ -37,7 +35,7 @@ mapbevprediction
 
 ## Catalog
 
-- [ ] Visualization Code
+- [x] Visualization Code
 - [x] Code release
   - [x] MapTR
   - [x] MapTRv2
