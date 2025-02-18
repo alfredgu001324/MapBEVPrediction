@@ -26,6 +26,8 @@ I will try to transfer them to Hugging Face in the future. AWS is a bit expensiv
 Dataset Structure is as follows:
 ```
 mapbevprediction
+├── stream_bev/
+├── maptr_bev/
 ├── maptrv2_bev/
 │   ├── mini_val/
 │   |   ├── data/
