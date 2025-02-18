@@ -17,9 +17,11 @@ Mapping checkpoints are [here](https://drive.google.com/drive/folders/1ZhCv4Z_yI
 
 ## Dataset
 
-I have uploaded two sample datasets (complete) for `MapTRv2` and `MapTRv2 CL`. They are around 500GB each. You can download them through AWS S3. They are located at 
+I have uploaded all datasets (complete) for `MapTR`, `StreamMapNet`, `MapTRv2` and `MapTRv2 CL`. They are around 500GB each (StreamMapNet is around 200GB). You can download them through AWS S3. They are located at 
 - AWS Bucket Name: **s3://mapbevprediction**
 - Region: us-east-2
+
+I will try to transfer them to Hugging Face in the future. AWS is a bit expensive.
 
 Dataset Structure is as follows:
 ```
