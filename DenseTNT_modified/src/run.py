@@ -207,7 +207,7 @@ def run_training_process(rank, world_size, args, queue):
     elif args.method == 'stream_bev':
         from modeling.vectornet_stream import VectorNet
     elif args.method == 'base_unc':
-        from modeling.vectornet_al import VectorNet
+        from modeling.vectornet import VectorNet
 
     if args.distributed_training:
         print(f"Running DDP on rank {rank}.")
