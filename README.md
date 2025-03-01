@@ -21,7 +21,7 @@ I have uploaded all datasets (complete) for `MapTR`, `StreamMapNet`, `MapTRv2` a
 - AWS Bucket Name: **s3://mapbevprediction**
 - Region: us-east-2
 
-I will try to transfer them to Hugging Face in the future. AWS is a bit expensive.
+As promised, I also uploaded the dataset to [Hugging Face](https://huggingface.co/datasets/alfredgu001324/MapBEVPrediction/tree/main) which should be easier to download.
 
 Dataset Structure is as follows:
 ```

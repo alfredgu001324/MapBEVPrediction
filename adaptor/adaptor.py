@@ -3,6 +3,7 @@ from tqdm import tqdm
 import torch
 import os
 import pickle
+from typing import Optional
 
 from pathlib import Path
 

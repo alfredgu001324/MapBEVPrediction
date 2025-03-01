@@ -2,6 +2,8 @@ import os
 import pickle
 import argparse
 from tqdm import tqdm
+import torch
+import numpy as np
 
 def add_bev_features(scene_folder, bev_folder, map_model):
     scene_files = [f for f in os.listdir(scene_folder) if f.endswith('.pkl')]
